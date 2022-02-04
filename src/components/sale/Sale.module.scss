@@ -1,0 +1,24 @@
+.sale {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+
+	.saleItem {
+		display: block;
+		position: relative;
+		width: 300px;
+		height: 343px;
+		border-radius: 10px;
+		background-image: url('../../assets/images/sale-1.jpg');
+
+		p {
+			position: absolute;
+			bottom: 0;
+			left: 20px;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 28px;
+			color: #fff;
+		}
+	}
+}

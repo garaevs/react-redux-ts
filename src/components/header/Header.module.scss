@@ -1,0 +1,75 @@
+.header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+
+	.headerLine {
+		width: 100%;
+		height: 2px;
+		background-color: #f0f0f0;
+		border: none;
+		margin: 0;
+	}
+
+	.headerInfo {
+		display: flex;
+		max-width: 1290px;
+		margin: 0 auto;
+		justify-content: space-between;
+		align-items: center;
+
+		p {
+			font-size: 14px;
+			line-height: 18px;
+		}
+
+		.headerItem {
+			display: flex;
+			justify-content: space-between;
+
+			.headerCity {
+				display: flex;
+				margin-right: 40px;
+
+				.headerCityName {
+					margin-right: 10px;
+					margin-left: 10px;
+				}
+			}
+
+			.headerAddressCheck {
+				margin-right: 40px;
+			}
+
+			.headerAccount {
+				position: relative;
+				margin-left: 70px;
+
+				img {
+					position: absolute;
+					top: 0;
+					left: -25px;
+				}
+			}
+		}
+
+		.headerLogo {
+			display: flex;
+
+			img {
+				margin-right: 12px;
+			}
+
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.headerInfoBottom {
+		padding-bottom: 12px;
+		padding-top: 12px;
+	}
+}
