@@ -1,0 +1,75 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+
+	.footerLogo {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.footerLogoCopyright {
+			margin: 0;
+		}
+	}
+
+	.footerItem {
+		display: flex;
+		flex-direction: column;
+
+		h2 {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 28px;
+			margin: 0 0 22px;
+			padding: 0;
+		}
+
+		.footerItemLink {
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 22px;
+			color: #191919;
+			margin-bottom: 20px;
+		}
+
+		.footerItemContact {
+			position: relative;
+			display: flex;
+			margin-bottom: 20px;
+
+			img {
+				position: absolute;
+				left: 0;
+			}
+
+			p {
+				margin: 0;
+				padding-left: 35px;
+			}
+		}
+		.footerSocial {
+			display: flex;
+
+			.footerItemSocial {
+				display: flex;
+				position: relative;
+				margin-right: 24px;
+
+				img {
+					position: absolute;
+					left: 0;
+				}
+
+				p {
+					margin: 0;
+					padding-left: 35px;
+				}
+			}
+		}
+	}
+}

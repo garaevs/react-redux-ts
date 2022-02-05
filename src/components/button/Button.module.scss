@@ -1,9 +1,7 @@
-.buttonCart {
-	display: flex;
-	align-items: center;
-	padding: 10px 16px;
+.button {
+	padding: 13px 32px;
 	background-color: #ff7010;
-	border-radius: 4px;
+	border-radius: 6px;
 	border: none;
 	font-family: Inter;
 	font-style: normal;
@@ -12,10 +10,6 @@
 	color: #fff;
 	cursor: pointer;
 	transition: background-color 0.1s linear;
-
-	img {
-		margin-right: 8px;
-	}
 
 	&:hover {
 		background-color: darken(#ff7010, 10%);

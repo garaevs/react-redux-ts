@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Address.module.scss';
 import locationSvg from '../../assets/images/location.svg';
+import Button from '../button';
 
 const Address: React.FC = () => {
 	return (
@@ -9,9 +10,7 @@ const Address: React.FC = () => {
 			<form className={styles.addresInput}>
 				<img src={locationSvg} alt='location' />
 				<input type='text' placeholder='Адрес' />
-				<button type='submit' className={styles.button}>
-					Проверить
-				</button>
+				<Button name={'Проверить'} />
 			</form>
 		</div>
 	);

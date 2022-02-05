@@ -6,6 +6,7 @@ import shoppingCartSvg from '../../assets/images/shopping-bag.svg';
 import locationSvg from '../../assets/images/location.svg';
 import arrowDownSvg from '../../assets/images/arrow-down.svg';
 import ButtonCart from '../buttoncart';
+import Logo from '../Logo';
 
 const Header: React.FC = () => {
 	return (
@@ -32,10 +33,7 @@ const Header: React.FC = () => {
 			</div>
 			<hr className={styles.headerLine} />
 			<div className={styles.headerInfo + ' ' + styles.headerInfoBottom}>
-				<div className={styles.headerLogo}>
-					<img src={pizzaSvg} alt='pizza' />
-					<p>Куда пицца</p>
-				</div>
+				<Logo />
 				<ButtonCart imgLink={shoppingCartSvg} text={'0'} />
 			</div>
 			<hr className={styles.headerLine} />
