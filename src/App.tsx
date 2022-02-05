@@ -3,6 +3,7 @@ import Category from './components/category';
 import Header from './components/header';
 import actionsSvg from './assets/images/actions.svg';
 import Sale from './components/sale';
+import Address from './components/address';
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Header />
 			<Category imgLink={actionsSvg} name={'Акции'} />
 			<Sale />
+			<Address />
 		</div>
 	);
 }
