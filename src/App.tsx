@@ -7,13 +7,17 @@ import Address from './components/address';
 import Catalog from './components/catalog';
 import FooterInfo from './components/FooterInfo';
 import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 
 function App() {
 	return (
 		<div className='wrapper'>
-			<Header />
+			{/* <Header /> */}
+			<Navigation />
+
 			<Category imgLink={actionsSvg} name={'Акции'} />
 			<Sale />
+
 			<Address />
 			<Catalog />
 			<Catalog />

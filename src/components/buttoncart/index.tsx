@@ -1,16 +1,15 @@
 import React from 'react';
 import styles from './Button.module.scss';
-
+import shoppingCartSvg from '../../assets/images/shopping-bag.svg';
 interface buttonCartProps {
-	imgLink: string;
 	text: string;
 }
 
-const ButtonCart: React.FC<buttonCartProps> = ({ imgLink, text }) => {
+const ButtonCart: React.FC<buttonCartProps> = ({ text }) => {
 	return (
 		<>
 			<button className={styles.buttonCart}>
-				<img src={imgLink} alt='cart' />
+				<img src={shoppingCartSvg} alt='cart' />
 				{text} ₽
 			</button>
 		</>

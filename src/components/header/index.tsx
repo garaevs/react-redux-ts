@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import accountSvg from '../../assets/images/account.svg';
-import pizzaSvg from '../../assets/images/pizza.svg';
-import shoppingCartSvg from '../../assets/images/shopping-bag.svg';
 import locationSvg from '../../assets/images/location.svg';
 import arrowDownSvg from '../../assets/images/arrow-down.svg';
 import ButtonCart from '../buttoncart';
@@ -34,7 +32,7 @@ const Header: React.FC = () => {
 			<hr className={styles.headerLine} />
 			<div className={styles.headerInfo + ' ' + styles.headerInfoBottom}>
 				<Logo />
-				<ButtonCart imgLink={shoppingCartSvg} text={'0'} />
+				<ButtonCart text={'0'} />
 			</div>
 			<hr className={styles.headerLine} />
 		</div>
