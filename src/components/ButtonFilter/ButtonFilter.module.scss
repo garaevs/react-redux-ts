@@ -1,0 +1,24 @@
+.buttonFilter {
+	font-family: Inter;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	padding: 9px 16px;
+	background-color: #ffffff;
+	border: 1px solid #f0f0f0;
+	box-sizing: border-box;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.1s linear, border-color 0.1s linear;
+
+	img {
+		width: 12px;
+		margin-right: 4px;
+	}
+
+	&:hover {
+		background-color: darken($color: #ffff, $amount: 10%);
+		border-color: darken($color: #f0f0f0, $amount: 10%);
+	}
+}

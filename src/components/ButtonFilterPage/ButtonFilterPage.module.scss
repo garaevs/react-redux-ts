@@ -1,0 +1,19 @@
+.button {
+	padding: 11px 16px;
+	background: #ffffff;
+	border: 1px solid #f0f0f0;
+	box-sizing: border-box;
+	border-radius: 6px;
+	font-family: Inter;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #191919;
+	cursor: pointer;
+	margin: 8px;
+	transition: background-color 0.1s linear;
+
+	&:hover {
+		background-color: darken(#fff, 10%);
+	}
+}

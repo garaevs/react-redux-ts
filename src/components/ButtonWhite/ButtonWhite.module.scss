@@ -1,22 +1,4 @@
 .button {
-	padding: 13px 32px;
-	background-color: #ff7010;
-	border-radius: 6px;
-	border: none;
-	font-family: Inter;
-	font-style: normal;
-	font-size: 16px;
-	line-height: 22px;
-	color: #fff;
-	cursor: pointer;
-	transition: background-color 0.1s linear;
-
-	&:hover {
-		background-color: darken(#ff7010, 10%);
-	}
-}
-
-.buttonWhite {
 	align-items: center;
 	padding: 10px 16px;
 	background-color: #fff;

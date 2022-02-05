@@ -1,16 +1,14 @@
 import React from 'react';
 import Button from '../button';
+import ButtonFilter from '../ButtonFilter';
 import styles from './Catalog.module.scss';
-import filterSvg from '../../assets/images/filter.svg';
 
 const Catalog: React.FC = () => {
 	return (
 		<div className={styles.catalog}>
 			<div className={styles.catalogHeader}>
 				<h1 className={styles.catalogName}>Пицца</h1>
-				<button className={styles.buttonFilter}>
-					<img src={filterSvg} alt='filter' /> Фильтры
-				</button>
+				<ButtonFilter />
 			</div>
 			<div className={styles.catalogItems}>
 				<div className={styles.catalogItem}>
