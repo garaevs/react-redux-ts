@@ -1,0 +1,124 @@
+.cart {
+	width: 100%;
+	max-width: 850px;
+	margin: 170px auto 140px;
+
+	.cartTitle {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 40px;
+		line-height: 48px;
+		margin: 0 0 27px;
+	}
+
+	.cartBlock {
+		.cartItem {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			width: 100%;
+			height: 152px;
+			background: #ffffff;
+			border: 1px solid #f0f0f0;
+			box-sizing: border-box;
+			border-radius: 12px;
+			padding: 16px;
+			margin-bottom: 16px;
+
+			img {
+				width: 120px;
+				height: 120px;
+				margin-right: 16px;
+			}
+
+			.cartInfo {
+				margin-right: 200px;
+				.cartTitle {
+					font-family: Inter;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 28px;
+					margin: 0 0 8px;
+				}
+
+				.cartSubTitle {
+					font-family: Inter;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 22px;
+					margin: 0;
+				}
+			}
+
+			.cartButton {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: #ffeee2;
+				border: none;
+				color: #ff7010;
+				border-radius: 6px;
+				font-family: Inter;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 20px;
+				overflow: hidden;
+				margin-right: 35px;
+
+				.cartButtonMinus {
+					display: block;
+					height: 36px;
+					width: 36px;
+					border: none;
+					background: #ffeee2;
+					color: #ff7010;
+				}
+
+				.cartButtonNumber {
+					display: block;
+					height: 100%;
+					width: 40px;
+					color: #ff7010;
+					margin: 0;
+					text-align: center;
+				}
+				.cartButtonPlus {
+					display: block;
+					height: 36px;
+					width: 36px;
+					border: none;
+					background: #ffeee2;
+					color: #ff7010;
+				}
+			}
+
+			.cartItemPrice {
+				font-family: Inter;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 28px;
+				color: #ff7010;
+			}
+		}
+	}
+
+	.cartOrder {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+
+		.cartOrderPrice {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 28px;
+			color: #ff7010;
+		}
+	}
+}

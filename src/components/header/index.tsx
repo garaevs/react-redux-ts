@@ -5,6 +5,7 @@ import locationSvg from '../../assets/images/location.svg';
 import arrowDownSvg from '../../assets/images/arrow-down.svg';
 import ButtonCart from '../buttoncart';
 import Logo from '../Logo';
+import Navigation from '../Navigation';
 
 const Header: React.FC = () => {
 	return (
@@ -32,6 +33,7 @@ const Header: React.FC = () => {
 			<hr className={styles.headerLine} />
 			<div className={styles.headerInfo + ' ' + styles.headerInfoBottom}>
 				<Logo />
+				<Navigation />
 				<ButtonCart text={'0'} />
 			</div>
 			<hr className={styles.headerLine} />

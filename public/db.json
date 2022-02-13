@@ -1,0 +1,411 @@
+{
+	"cart": [],
+	"items": {
+		"pizzas": [
+			{
+				"category": "pizzas",
+				"name": "Чикен Сладкий Чили",
+				"text": "Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...",
+				"picture": "/assets/images/pizza/pizza-1.jpg",
+				"price": 399
+			},
+			{
+				"category": "pizzas",
+				"name": "EASY PEASY огуречный расколбас",
+				"text": "Курица, Лук, Перец Халапеньо...",
+				"picture": "/assets/images/pizza/pizza-2.jpg",
+				"price": 549
+			},
+			{
+				"category": "pizzas",
+				"name": "EASY PEASY чикен а-ля хрен",
+				"text": "Курица, Лук, Соус Карбонара,...",
+				"picture": "/assets/images/pizza/pizza-3.jpg",
+				"price": 249
+			},
+			{
+				"category": "pizzas",
+				"name": "4 сезона",
+				"text": "Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...",
+				"picture": "/assets/images/pizza/pizza-4.jpg",
+				"price": 630
+			},
+			{
+				"category": "pizzas",
+				"name": "4 сезона",
+				"text": "Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...",
+				"picture": "/assets/images/pizza/pizza-5.jpg",
+				"price": 630
+			},
+			{
+				"category": "pizzas",
+				"name": "EASY PEASY чикен а-ля хрен",
+				"text": "Курица, Лук, Соус Карбонара,...",
+				"picture": "/assets/images/pizza/pizza-6.jpg",
+				"price": 249
+			},
+			{
+				"category": "pizzas",
+				"name": "Чикен Сладкий Чили",
+				"text": "Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...",
+				"picture": "/assets/images/pizza/pizza-7.jpg",
+				"price": 399
+			},
+			{
+				"category": "pizzas",
+				"name": "EASY PEASY огуречный расколбас",
+				"text": "Курица, Лук, Перец Халапеньо...",
+				"picture": "/assets/images/pizza/pizza-8.jpg",
+				"price": 549
+			}
+		],
+		"sushi": [
+			{
+				"category": "sushi",
+				"name": "Филадельфия кранч",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/sushi/sushi-1.jpg",
+				"price": 475
+			},
+			{
+				"category": "sushi",
+				"name": "Филадельфия крем-брюле",
+				"text": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+				"picture": "/assets/images/sushi/sushi-2.jpg",
+				"price": 395
+			},
+			{
+				"category": "sushi",
+				"name": "Супер Филадельфия",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/sushi/sushi-3.jpg",
+				"price": 425
+			},
+			{
+				"category": "sushi",
+				"name": "Тигр мама",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/sushi/sushi-4.jpg",
+				"price": 525
+			},
+			{
+				"category": "sushi",
+				"name": "Тигр мама",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/sushi/sushi-5.jpg",
+				"price": 525
+			},
+			{
+				"category": "sushi",
+				"name": "Супер Филадельфия",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/sushi/sushi-6.jpg",
+				"price": 425
+			},
+			{
+				"category": "sushi",
+				"name": "Филадельфия кранч",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/sushi/sushi-7.jpg",
+				"price": 395
+			},
+			{
+				"category": "sushi",
+				"name": "Филадельфия крем-брюле",
+				"text": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+				"picture": "/assets/images/sushi/sushi-8.jpg",
+				"price": 475
+			}
+		],
+		"zakuski": [
+			{
+				"category": "zakuski",
+				"name": "Филадельфия кранч",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/zakuski/zak-1.jpg",
+				"price": 475
+			},
+			{
+				"category": "zakuski",
+				"name": "Филадельфия крем-брюле",
+				"text": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+				"picture": "/assets/images/zakuski/zak-2.jpg",
+				"price": 395
+			},
+			{
+				"category": "zakuski",
+				"name": "Супер Филадельфия",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/zakuski/zak-3.jpg",
+				"price": 425
+			},
+			{
+				"category": "zakuski",
+				"name": "Тигр мама",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/zakuski/zak-4.jpg",
+				"price": 525
+			},
+			{
+				"category": "zakuski",
+				"name": "Тигр мама",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/zakuski/zak-5.jpg",
+				"price": 550
+			},
+			{
+				"category": "zakuski",
+				"name": "Супер Филадельфия",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/zakuski/zak-6.jpg",
+				"price": 450
+			},
+			{
+				"category": "zakuski",
+				"name": "Филадельфия крем-брюле",
+				"text": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+				"picture": "/assets/images/zakuski/zak-7.jpg",
+				"price": 670
+			},
+			{
+				"category": "zakuski",
+				"name": "Филадельфия кранч",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/zakuski/zak-8.jpg",
+				"price": 340
+			}
+		],
+		"dessert": [
+			{
+				"category": "dessert",
+				"name": "Филадельфия кранч",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/dessert/des-1.jpg",
+				"price": 450
+			},
+			{
+				"category": "dessert",
+				"name": "Филадельфия крем-брюле",
+				"text": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+				"picture": "/assets/images/dessert/des-2.jpg",
+				"price": 540
+			},
+			{
+				"category": "dessert",
+				"name": "Супер Филадельфия",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/dessert/des-3.jpg",
+				"price": 360
+			},
+			{
+				"category": "dessert",
+				"name": "Тигр мама",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/dessert/des-4.jpg",
+				"price": 570
+			},
+			{
+				"category": "dessert",
+				"name": "Тигр мама",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/dessert/des-5.jpg",
+				"price": 530
+			},
+			{
+				"category": "dessert",
+				"name": "Филадельфия крем-брюле",
+				"text": "",
+				"picture": "/assets/images/dessert/des-6.jpg",
+				"price": 630
+			},
+			{
+				"category": "dessert",
+				"name": "Филадельфия кранч",
+				"text": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+				"picture": "/assets/images/dessert/des-7.jpg",
+				"price": 370
+			},
+			{
+				"category": "dessert",
+				"name": "Супер Филадельфия",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/dessert/des-8.jpg",
+				"price": 350
+			}
+		],
+		"drink": [
+			{
+				"category": "drink",
+				"name": "Game Fuel",
+				"text": "Освежающий напиток для всех.",
+				"picture": "/assets/images/drink/drink-1.jpg",
+				"price": 120
+			},
+			{
+				"category": "drink",
+				"name": "Pepsi Без сахара",
+				"text": "Отсутствие сахара при лучшем вкусе.",
+				"picture": "/assets/images/drink/drink-2.jpg",
+				"price": 100
+			},
+			{
+				"category": "drink",
+				"name": "Пепси",
+				"text": "Стандарт качества - синий пепси.",
+				"picture": "/assets/images/drink/drink-3.jpg",
+				"price": 110
+			},
+			{
+				"category": "drink",
+				"name": "Пепси Черри",
+				"text": "Пепси со вкусом вишни.",
+				"picture": "/assets/images/drink/drink-4.jpg",
+				"price": 90
+			},
+			{
+				"category": "drink",
+				"name": "Пепси лайт",
+				"text": "Легкий напиток без сахара.",
+				"picture": "/assets/images/drink/drink-5.jpg",
+				"price": 112
+			},
+			{
+				"category": "drink",
+				"name": "Миринда",
+				"text": "Много апельсинов - это миринда.",
+				"picture": "/assets/images/drink/drink-6.jpg",
+				"price": 115
+			},
+			{
+				"category": "drink",
+				"name": "Адреналин",
+				"text": "Освежающий вкус лимонов.",
+				"picture": "/assets/images/drink/drink-7.jpg",
+				"price": 190
+			},
+			{
+				"category": "drink",
+				"name": "Пепси Блак",
+				"text": "Качественный напиток пепси.",
+				"picture": "/assets/images/drink/drink-8.jpg",
+				"price": 115
+			}
+		],
+		"sous": [
+			{
+				"category": "sous",
+				"name": "Сырный соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-1.jpg",
+				"price": 110
+			},
+			{
+				"category": "sous",
+				"name": "Горчичный соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-2.jpg",
+				"price": 150
+			},
+			{
+				"category": "sous",
+				"name": "Нежный соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-3.jpg",
+				"price": 130
+			},
+			{
+				"category": "sous",
+				"name": "Перцовый соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-4.jpg",
+				"price": 140
+			},
+			{
+				"category": "sous",
+				"name": "Виноградный соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-5.jpg",
+				"price": 200
+			},
+			{
+				"category": "sous",
+				"name": "Ягодный соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-6.jpg",
+				"price": 210
+			},
+			{
+				"category": "sous",
+				"name": "Молочный соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-7.jpg",
+				"price": 50
+			},
+			{
+				"category": "sous",
+				"name": "Соевый соус",
+				"text": "",
+				"picture": "/assets/images/sous/sous-8.jpg",
+				"price": 80
+			}
+		],
+		"combo": [
+			{
+				"category": "combo",
+				"name": "Две пиццы",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/combo/combo-1.jpg",
+				"price": 800
+			},
+			{
+				"category": "combo",
+				"name": "Три пиццы",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/combo/combo-2.jpg",
+				"price": 960
+			},
+			{
+				"category": "combo",
+				"name": "Две пиццы и кола",
+				"text": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+				"picture": "/assets/images/combo/combo-3.jpg",
+				"price": 760
+			},
+			{
+				"category": "combo",
+				"name": "Шаурма и кола",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/combo/combo-4.jpg",
+				"price": 1010
+			},
+			{
+				"category": "combo",
+				"name": "Набор пиц",
+				"text": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+				"picture": "/assets/images/combo/combo-5.jpg",
+				"price": 870
+			},
+			{
+				"category": "combo",
+				"name": "Удиви себя пиццой",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/combo/combo-6.jpg",
+				"price": 800
+			},
+			{
+				"category": "combo",
+				"name": "Лучшие пиццы",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/combo/combo-7.jpg",
+				"price": 450
+			},
+			{
+				"category": "combo",
+				"name": "Пицца и кола",
+				"text": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+				"picture": "/assets/images/combo/combo-8.jpg",
+				"price": 980
+			}
+		]
+	}
+}
