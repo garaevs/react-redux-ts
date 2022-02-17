@@ -6,8 +6,11 @@ import arrowDownSvg from '../../assets/images/arrow-down.svg';
 import ButtonCart from '../buttoncart';
 import Logo from '../Logo';
 import Navigation from '../Navigation';
+import { useAppSelector } from '../../redux/hooks';
 
 const Header: React.FC = () => {
+	const cartData = useAppSelector(state => state.cartItems.cart);
+
 	return (
 		<div className={styles.header}>
 			<div className={styles.headerInfo}>
@@ -34,7 +37,7 @@ const Header: React.FC = () => {
 			<div className={styles.headerInfo + ' ' + styles.headerInfoBottom}>
 				<Logo />
 				<Navigation />
-				<ButtonCart text={'0'} />
+				<ButtonCart text={cartData} />
 			</div>
 			<hr className={styles.headerLine} />
 		</div>

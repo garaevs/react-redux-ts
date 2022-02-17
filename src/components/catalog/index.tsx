@@ -1,18 +1,21 @@
 import React from 'react';
-import Button from '../button';
+import { AddItemsCartPayload } from '../../types/cart';
+// import Button from '../button';
+import ButtonAddCart from '../ButtonAddCart';
 import ButtonFilter from '../ButtonFilter';
 import styles from './Catalog.module.scss';
 
-interface ICatalogProps {
+export interface ICatalogProps {
 	category: string;
 	name: string;
 	text?: string;
 	picture: string;
 	price: number;
+	id?: number;
 }
 
 export interface IProps {
-	props: ICatalogProps[];
+	props: AddItemsCartPayload[];
 	categoryName?: string;
 }
 
@@ -30,7 +33,7 @@ const Catalog: React.FC<IProps> = ({ props, categoryName = 'Каталог' }) =
 						<p className={styles.catalogItemTitle}>{item.name}</p>
 						<p className={styles.catalogItemSubtitle}>{item.text}</p>
 						<div className={styles.catalogItemInfo}>
-							<Button name={'Выбрать'} />
+							<ButtonAddCart name={'Выбрать'} item={item} />
 							<p className={styles.catalogItemPrice}>от {item.price} ₽</p>
 						</div>
 					</div>

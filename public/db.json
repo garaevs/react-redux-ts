@@ -1,4 +1,5 @@
 {
+	"orders": [],
 	"cart": [],
 	"items": {
 		"pizzas": [
@@ -7,56 +8,64 @@
 				"name": "Чикен Сладкий Чили",
 				"text": "Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...",
 				"picture": "/assets/images/pizza/pizza-1.jpg",
-				"price": 399
+				"price": 399,
+				"id": 1
 			},
 			{
 				"category": "pizzas",
 				"name": "EASY PEASY огуречный расколбас",
 				"text": "Курица, Лук, Перец Халапеньо...",
 				"picture": "/assets/images/pizza/pizza-2.jpg",
-				"price": 549
+				"price": 549,
+				"id": 2
 			},
 			{
 				"category": "pizzas",
 				"name": "EASY PEASY чикен а-ля хрен",
 				"text": "Курица, Лук, Соус Карбонара,...",
 				"picture": "/assets/images/pizza/pizza-3.jpg",
-				"price": 249
+				"price": 249,
+				"id": 3
 			},
 			{
 				"category": "pizzas",
 				"name": "4 сезона",
 				"text": "Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...",
 				"picture": "/assets/images/pizza/pizza-4.jpg",
-				"price": 630
+				"price": 630,
+				"id": 4
 			},
 			{
 				"category": "pizzas",
 				"name": "4 сезона",
 				"text": "Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...",
 				"picture": "/assets/images/pizza/pizza-5.jpg",
-				"price": 630
+				"price": 630,
+				"id": 5
 			},
 			{
 				"category": "pizzas",
 				"name": "EASY PEASY чикен а-ля хрен",
 				"text": "Курица, Лук, Соус Карбонара,...",
 				"picture": "/assets/images/pizza/pizza-6.jpg",
-				"price": 249
+				"price": 249,
+				"id": 6
 			},
 			{
 				"category": "pizzas",
 				"name": "Чикен Сладкий Чили",
 				"text": "Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...",
 				"picture": "/assets/images/pizza/pizza-7.jpg",
-				"price": 399
+				"price": 399,
+				"id": 7
 			},
 			{
 				"category": "pizzas",
 				"name": "EASY PEASY огуречный расколбас",
 				"text": "Курица, Лук, Перец Халапеньо...",
 				"picture": "/assets/images/pizza/pizza-8.jpg",
-				"price": 549
+				"price": 549,
+				"id": 8
 			}
 		],
 		"sushi": [

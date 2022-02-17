@@ -13,6 +13,7 @@ function App() {
 	const { combo, dessert, drink, pizzas, sous, sushi, zakuski } = useAppSelector(
 		state => state.getItems.items,
 	);
+	const cartData = useAppSelector(state => state.cartItems.cart);
 	const dispatch = useAppDispatch();
 
 	React.useEffect(() => {
@@ -27,7 +28,7 @@ function App() {
 		<div className='wrapper'>
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='cart' element={<Cart />} />
+				<Route path='cart' element={<Cart cartData={cartData} />} />
 				<Route path='order' element={<CartOrder />} />
 				<Route path='pizza' element={<Shop props={pizzas} />} />
 				<Route path='sushi' element={<Shop props={sushi} />} />

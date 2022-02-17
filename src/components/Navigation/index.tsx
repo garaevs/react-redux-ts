@@ -14,19 +14,19 @@ const Navigation: React.FC = () => {
 				<Link to='/sushi' className={styles.navLink}>
 					Суши
 				</Link>
-				<Link to={'/drink'} className={styles.navLink}>
+				<Link to='/drink' className={styles.navLink}>
 					Напитки
 				</Link>
-				<Link to={'/zakuski'} className={styles.navLink}>
+				<Link to='/zakuski' className={styles.navLink}>
 					Закуски
 				</Link>
-				<Link to={'/combo'} className={styles.navLink}>
+				<Link to='/combo' className={styles.navLink}>
 					Комбо
 				</Link>
-				<Link to={'/dessert'} className={styles.navLink}>
+				<Link to='/dessert' className={styles.navLink}>
 					Десерты
 				</Link>
-				<Link to={'/sous'} className={styles.navLink}>
+				<Link to='/sous' className={styles.navLink}>
 					Соусы
 				</Link>
 
