@@ -27,7 +27,7 @@ const Cart: React.FC<ICartProps> = ({ cartData }) => {
 
 	const navigate = useNavigate();
 	const addOrderCart = () => {
-		axios.post('http://localhost:3001/orders', { ...cartData });
+		axios.post('/orders', { ...cartData });
 		navigate('/order');
 	};
 	console.log('cartData', cartData);

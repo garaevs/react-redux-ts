@@ -21,7 +21,7 @@ function App() {
 
 	React.useEffect(() => {
 		async function loadData() {
-			const response = await axios.get('http://localhost:3001/items').then(({ data }) => data);
+			const response = await axios.get('/items').then(({ data }) => data);
 			dispatch(itemsAction(response));
 		}
 		loadData();

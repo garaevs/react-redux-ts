@@ -14,7 +14,7 @@ const Account: React.FC = () => {
 
 	React.useEffect(() => {
 		async function loadOrders() {
-			const orderList = await axios.get('http://localhost:3001/orders').then(({ data }) => data);
+			const orderList = await axios.get('/orders').then(({ data }) => data);
 			dispatch(ordersAction(orderList));
 		}
 		loadOrders();
