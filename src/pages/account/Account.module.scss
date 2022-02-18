@@ -1,0 +1,26 @@
+.account {
+	width: 100%;
+	margin: 200px auto;
+
+	.accountName {
+		text-align: left;
+	}
+
+	.accountInfo {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 32px;
+		margin: 0 0 16px;
+	}
+
+	.cartOrderInfo {
+		font-family: SF Pro Text;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 24px;
+	}
+}

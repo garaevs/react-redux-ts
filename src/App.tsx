@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Filter from './components/Filter';
 import Cart from './components/Cart';
 import CartOrder from './components/CartOrder';
 import Home from './components/Home';
@@ -8,6 +7,10 @@ import Shop from './components/Shop';
 import axios from 'axios';
 import { useAppDispatch, useAppSelector } from './redux/hooks';
 import { itemsAction } from './redux/actions/items';
+import Account from './pages/account';
+import About from './pages/about';
+import Info from './pages/info';
+import Garant from './pages/garant';
 
 function App() {
 	const { combo, dessert, drink, pizzas, sous, sushi, zakuski } = useAppSelector(
@@ -38,9 +41,11 @@ function App() {
 				<Route path='sous' element={<Shop props={sous} />} />
 				<Route path='combo' element={<Shop props={combo} />} />
 				<Route path='redprice' element={<Shop props={pizzas} />} />
+				<Route path='account' element={<Account />} />
+				<Route path='about' element={<About />} />
+				<Route path='info' element={<Info />} />
+				<Route path='garant' element={<Garant />} />
 			</Routes>
-
-			{/* <Filter /> */}
 		</div>
 	);
 }

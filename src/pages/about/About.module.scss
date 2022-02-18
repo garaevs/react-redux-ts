@@ -1,0 +1,19 @@
+.about {
+	width: 100%;
+	max-width: 800px;
+	margin: 200px auto;
+
+	.aboutTitle {
+		text-align: left;
+	}
+
+	.aboutInfo {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		text-align: justify;
+		font-size: 16px;
+		line-height: 32px;
+		margin: 0 0 16px;
+	}
+}

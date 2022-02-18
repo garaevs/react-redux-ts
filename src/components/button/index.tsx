@@ -10,14 +10,6 @@ interface buttonProps {
 }
 
 const Button: React.FC<buttonProps> = ({ name, addOrderCart }) => {
-	// const cartData = useAppSelector(state => state.cartItems.cart);
-	// const dispatch = useAppDispatch();
-
-	// const onAddCart = () => {
-	// 	// dispatch(cartItemsAction(item));
-	// 	console.log(item);
-	// };
-
 	const addFunction = () => {
 		addOrderCart && addOrderCart();
 	};

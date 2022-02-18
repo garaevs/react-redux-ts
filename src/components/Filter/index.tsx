@@ -11,7 +11,6 @@ const Filter: React.FC = () => {
 				<h1 className={styles.filterTitle}>Фильтры</h1>
 				<div className={styles.filterBlock}>
 					<p className={styles.filterName}>Общее</p>
-					{/* <button className={styles.buttonFilterSearch}>Хит</button> */}
 					<ButtonFilterPage name={'Хит'} />
 					<ButtonFilterPage name={'Новинка'} />
 					<ButtonFilterPage name={'С мясом'} />
@@ -24,7 +23,6 @@ const Filter: React.FC = () => {
 				</div>
 				<div className={styles.filterBlock}>
 					<p className={styles.filterName}>Общее</p>
-					{/* <button className={styles.buttonFilterSearch}>Хит</button> */}
 					<ButtonFilterPage name={'Хит'} />
 					<ButtonFilterPage name={'Новинка'} />
 					<ButtonFilterPage name={'С мясом'} />
@@ -37,7 +35,6 @@ const Filter: React.FC = () => {
 				</div>
 				<div className={styles.filterBlock}>
 					<p className={styles.filterName}>Общее</p>
-					{/* <button className={styles.buttonFilterSearch}>Хит</button> */}
 					<ButtonFilterPage name={'Хит'} />
 					<ButtonFilterPage name={'Новинка'} />
 					<ButtonFilterPage name={'С мясом'} />

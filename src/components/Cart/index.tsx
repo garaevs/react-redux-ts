@@ -14,8 +14,6 @@ interface ICartProps {
 }
 
 const Cart: React.FC<ICartProps> = ({ cartData }) => {
-	// const cartData = useAppSelector(state => state.cartItems.cart);
-	// console.log(cartData);
 	const dispatch = useAppDispatch();
 	let sumPriceCart;
 
@@ -35,13 +33,10 @@ const Cart: React.FC<ICartProps> = ({ cartData }) => {
 	console.log('cartData', cartData);
 
 	const cartItemDelete = (item: AddItemsCartPayload) => {
-		// const newCartData = cartData.filter((item: AddItemsCartPayload) => item.name !== name);
-
 		dispatch(cartItemsActionDelete(item));
 		console.log('newCartData', item);
 	};
 
-	// console.log(sumPriceCart);
 	return (
 		<>
 			<Header />

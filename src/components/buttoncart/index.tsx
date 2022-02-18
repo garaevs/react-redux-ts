@@ -2,15 +2,12 @@ import React from 'react';
 import styles from './Button.module.scss';
 import shoppingCartSvg from '../../assets/images/shopping-bag.svg';
 import { Link } from 'react-router-dom';
-import { useAppSelector } from '../../redux/hooks';
-import { AddItemsCartPayload } from '../../types/cart';
 
 interface buttonCartProps {
 	text: any[];
 }
 
 const ButtonCart: React.FC<buttonCartProps> = ({ text }) => {
-	// console.log(cartData);
 	let sumPriceCart;
 
 	if (text.length > 0) {

@@ -5,6 +5,7 @@ import mobileSvg from '../../assets/images/mobile.svg';
 import locationfSvg from '../../assets/images/location-f.svg';
 import facebookSvg from '../../assets/images/facebook.svg';
 import instaSvg from '../../assets/images/instagram.svg';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
 	return (
@@ -15,15 +16,15 @@ const Footer: React.FC = () => {
 			</div>
 			<div className={styles.footerItem}>
 				<h2>Куда пицца</h2>
-				<a href='/' className={styles.footerItemLink}>
+				<Link to={'/about'} className={styles.footerItemLink}>
 					О компании
-				</a>
-				<a href='/' className={styles.footerItemLink}>
+				</Link>
+				<Link to={'/info'} className={styles.footerItemLink}>
 					Пользовательское соглашение
-				</a>
-				<a href='/' className={styles.footerItemLink}>
+				</Link>
+				<Link to={'/garant'} className={styles.footerItemLink}>
 					Условия гарантии
-				</a>
+				</Link>
 			</div>
 			<div className={styles.footerItem}>
 				<h2>Помощь</h2>

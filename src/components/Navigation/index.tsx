@@ -1,7 +1,6 @@
 import React from 'react';
 
 import styles from './Navigation.module.scss';
-import arrowSvg from '../../assets/images/arrow.svg';
 import { Link } from 'react-router-dom';
 
 const Navigation: React.FC = () => {
@@ -29,39 +28,6 @@ const Navigation: React.FC = () => {
 				<Link to='/sous' className={styles.navLink}>
 					Соусы
 				</Link>
-
-				<a href='/' className={styles.navLink}>
-					Другое
-				</a>
-				<span>
-					<img src={arrowSvg} alt='others' />
-					<div className={styles.navOthers}>
-						<a href='/' className={styles.navOthersLink}>
-							Акции
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							О компании
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							Пользовательское соглашение
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							Условия гарантии
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							Ресторан
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							Контакты
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							Поддержка
-						</a>
-						<a href='/' className={styles.navOthersLink}>
-							Отследить заказ
-						</a>
-					</div>
-				</span>
 			</span>
 		</div>
 	);

@@ -7,6 +7,7 @@ import ButtonCart from '../buttoncart';
 import Logo from '../Logo';
 import Navigation from '../Navigation';
 import { useAppSelector } from '../../redux/hooks';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
 	const cartData = useAppSelector(state => state.cartItems.cart);
@@ -29,7 +30,7 @@ const Header: React.FC = () => {
 					<p>Время работы: с 11:00 до 23:00</p>
 					<p className={styles.headerAccount}>
 						<img src={accountSvg} alt='account' />
-						Войти в аккаунт
+						<Link to={'/account'}>Личный кабинет</Link>
 					</p>
 				</div>
 			</div>
